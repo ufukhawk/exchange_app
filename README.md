@@ -23,8 +23,8 @@ A Flutter application that displays real-time currency exchange rates from the T
 
 ### Prerequisites
 
-- Flutter SDK (3.5.4 or higher)
-- Dart SDK (3.5.4 or higher)
+- Flutter SDK (3.27.4 or higher)
+- Dart SDK (3.6.2 or higher)
 
 ### Installation
 
