@@ -1,0 +1,63 @@
+name: exchange_rates_app
+description: "A new Flutter project."
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # State management
+  get: ^4.6.6
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4 
+  mobx: ^2.5.0
+  flutter_mobx: ^2.2.1+1
+
+  # Networking & Data
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  connectivity_plus: ^6.1.1
+
+  # Functional Programming
+  fpdart: ^1.1.0
+  equatable: ^2.0.7
+
+  # UI & Navigation
+  go_router: ^14.6.2
+  package_info_plus: ^8.1.1
+  google_fonts: ^6.1.0 
+
+  # Localization
+  intl: ^0.19.0
+
+  # Utilities
+  xml: ^6.5.0
+  restart_app: ^1.3.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.9
+  mobx_codegen: ^2.6.1
+  mockito: ^5.4.5
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.4
+
+
+flutter:
+
+  uses-material-design: true
+  generate: true
